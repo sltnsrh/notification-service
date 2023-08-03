@@ -5,10 +5,10 @@ import com.salatin.notification.model.WebSocketMessage;
 import java.io.IOException;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.log4j.Log4j2;
-import org.springframework.stereotype.Component;
+import org.springframework.stereotype.Service;
 import org.springframework.web.socket.WebSocketSession;
 
-@Component
+@Service
 @RequiredArgsConstructor
 @Log4j2
 public class AuthTokenUpdateService {
